@@ -1,0 +1,24 @@
+
+  
+    <div class="users">
+      <table>
+        <caption>Users</caption>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Website</th>
+        </tr>
+        {{#each users}}
+
+          <tr>
+            <td>{{name}}</td>
+            <td><p>street:   {{address.street}}</p><p>suit: {{address.suite}}</p><p
+              >city: {{address.city}}</p><p>zipcode: {{address.zipcode}}</p></td>
+            <td><a href='https://www.{{website}}'>link</a></td>
+          </tr>
+          <tr></tr>
+
+        {{/each}}
+      </table>
+    </div>
+ 

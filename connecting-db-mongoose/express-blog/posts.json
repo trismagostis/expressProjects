@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "60e6aa71ae867d4a2b3673f3"
+  },
+  "title": "Post pierwszy",
+  "content": "Treść pierwszego posta",
+  "isPublic": "true",
+  "created_at": {
+    "$date": "2021-05-14T22:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "60e6aaaeae867d4a2b3673f4"
+  },
+  "title": "Post drugi",
+  "content": "Treść drugiego posta",
+  "isPublic": "true",
+  "'created_at": {
+    "$date": "2021-05-14T22:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "60e6aac5ae867d4a2b3673f5"
+  },
+  "title": "Post trzeci",
+  "content": "Treść trzeciego posta",
+  "isPublic": "true",
+  "created_at": {
+    "$date": "2021-05-14T22:00:00Z"
+  }
+}]
